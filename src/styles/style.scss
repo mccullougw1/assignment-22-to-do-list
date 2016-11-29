@@ -1,13 +1,26 @@
+@import "../../node_modules/font-awesome/scss/font-awesome.scss";
+@import url(http://fonts.googleapis.com/css?family=Advent+Pro:100);
+
 * {
 	box-sizing: border-box;
 }
 
 body{
 	font-family: Helvetica, Arial, sans-serif;
+	background: url(http://blogfiles.wfmu.org/KF/2016/11/09/morgan_freeman_dont_give_shit_WAY_TOO_BIG.gif) no-repeat center center fixed;
 }
 
-h1 {
-	font-size: 300px;
-	text-align: center;
-	color: fuchsia;
+
+.header {
+	margin-bottom: 50px;
+}
+
+.right-side {
+	background-color: chartreuse;
+
+	.no-more-derns {
+		font-size: 50px;
+		background-color: tomato;
+		font-family: "Brush Script MT", cursive;
+	}
 }
